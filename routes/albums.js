@@ -96,7 +96,7 @@ let router = express.Router();
 
 let mongoose = require('mongoose');
 var album = require('../models/albums');
-var mongodbUri ='mongodb://kevinhowley:meme1234 @ds139883.mlab.com:39883/albumsdb';
+var mongodbUri ='mongodb://kevin:memes1234@ds139883.mlab.com:39883/albumsdb';
 mongoose.connect(mongodbUri);
 
 let db = mongoose.connection;
