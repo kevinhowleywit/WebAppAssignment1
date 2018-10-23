@@ -1,0 +1,10 @@
+{
+  "message": "Album was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bc840926d1b8702e592ad6d",
+    "AlbumName": "MLWHWMHC",
+    "Artist": "SB",
+    "__v": 0
+  }
+}

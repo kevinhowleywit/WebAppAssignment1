@@ -1,0 +1,19 @@
+<h1>album.find is not a function</h1>
+<h2></h2>
+<pre>TypeError: album.find is not a function
+at router.findAll (/Users/user/WebstormProjects/Assignment1/routes/albums.js: 77: 11)
+at Layer.handle [as handle_request] (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/layer.js: 95: 5)
+at next (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/route.js: 137: 13)
+at Route.dispatch (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/route.js: 112: 3)
+at Layer.handle [as handle_request] (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/layer.js: 95: 5)
+at /Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 281:22
+at Function.process_params (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 335: 12)
+at next (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 275: 10)
+at /Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 635:15
+at next (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 260: 14)
+at Function.handle (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 174: 3)
+at router (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 47: 12)
+at Layer.handle [as handle_request] (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/layer.js: 95: 5)
+at trim_prefix (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 317: 13)
+at /Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 284: 7
+at Function.process_params (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/index.js: 335: 12)</pre>

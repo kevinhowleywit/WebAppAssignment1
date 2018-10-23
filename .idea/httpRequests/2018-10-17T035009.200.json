@@ -1,0 +1,10 @@
+{
+  "message": "Album was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bc74c2195dee30ac7eb978d",
+    "AlbumName": "klexos",
+    "Artist": "Killstation",
+    "__v": 0
+  }
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "upvotes": 0,
+    "_id": "5bc7376d967c9b7804d4d767",
+    "AlbumName": "Taboo",
+    "Artist": "Denzel Curry"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc73887967c9b7804d4d768",
+    "AlbumName": "LivingSuck",
+    "Artist": "Bones"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc7388d967c9b7804d4d769",
+    "AlbumName": "Unrendered",
+    "Artist": "Bones"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc73894967c9b7804d4d76a",
+    "AlbumName": "NTMR",
+    "Artist": "SB"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc73899967c9b7804d4d76b",
+    "AlbumName": "Trench",
+    "Artist": "twenty one pilots"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc7389f967c9b7804d4d76c",
+    "AlbumName": "Insurrection",
+    "Artist": "Killstation"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bc79da4126c6d0e00626d0d",
+    "AlbumName": "klexos",
+    "Artist": "Killstation",
+    "__v": 0
+  }
+]
