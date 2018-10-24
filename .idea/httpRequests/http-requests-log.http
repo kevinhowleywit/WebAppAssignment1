@@ -1,3 +1,146 @@
+DELETE http://localhost:3000/albums/5bd050a24dde9807602e0cd7
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121425.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121413.200.json
+
+###
+
+GET http://localhost:3000/albums/5bd04f7da8346f072b3ff6f7
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121411.200.json
+
+###
+
+DELETE http://localhost:3000/albums/5bd04f7da8346f072b3ff6f7
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121406.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121353.200.json
+
+###
+
+GET http://localhost:3000/albums/5bd0505ae44731075074af07
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121345.200.json
+
+###
+
+DELETE http://localhost:3000/albums/5bd0505ae44731075074af07
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121340.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121328.200.json
+
+###
+
+GET http://localhost:3000/albums/5bcf30f5e7179a4377014e44
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121318.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121312.200.json
+
+###
+
+GET http://localhost:3000/albums/5bd05110547a83076ffa5aa4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121308.200.json
+
+###
+
+DELETE http://localhost:3000/albums/5bd05110547a83076ffa5aa4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121303.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T121252.200.json
+
+###
+
 GET http://localhost:3000/albums/
 Accept: */*
 Cache-Control: no-cache
@@ -394,147 +537,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-23T020344.500.html
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-23T015453.500.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-23T015431.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T072448.500.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T071802.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T050326.500.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T050306.200.json
-
-###
-
-GET http://localhost:3000/albums/5bc73887967c9b7804d4d768/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T050052.404.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T050034.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bc7376d967c9b7804d4d767/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T045848.200.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-22T045804.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-18T091314.500.json
 
 ###
 
