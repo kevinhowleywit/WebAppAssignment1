@@ -1,0 +1,10 @@
+{
+  "message": "Album was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd050a24dde9807602e0cd7",
+    "AlbumName": "test2",
+    "Artist": "SB",
+    "__v": 0
+  }
+}

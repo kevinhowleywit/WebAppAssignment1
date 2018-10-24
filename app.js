@@ -25,7 +25,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 //routes
-app.get('/albums', albums.findAll);
+app.get('/albums/', albums.findAll);
 app.get('/albums/:id', albums.findOne);
 app.put('/albums/:id/vote', albums.incrementUpvotes);
 app.post('/albums',albums.addAlbum);

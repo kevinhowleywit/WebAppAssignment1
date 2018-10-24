@@ -1,7 +1,7 @@
 <h1>album.find is not a function</h1>
 <h2></h2>
 <pre>TypeError: album.find is not a function
-at router.findAll (/Users/user/WebstormProjects/Assignment1/routes/albums.js: 115: 11)
+at router.findAll (/Users/user/WebstormProjects/Assignment1/routes/albums.js: 121: 11)
 at Layer.handle [as handle_request] (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/layer.js: 95: 5)
 at next (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/route.js: 137: 13)
 at Route.dispatch (/Users/user/WebstormProjects/Assignment1/node_modules/express/lib/router/route.js: 112: 3)

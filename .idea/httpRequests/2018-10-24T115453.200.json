@@ -2,8 +2,8 @@
   "message": "Album was successfully added!",
   "data": {
     "upvotes": 0,
-    "_id": "5bc840926d1b8702e592ad6d",
-    "AlbumName": "MLWHWMHC",
+    "_id": "5bd04f7da8346f072b3ff6f7",
+    "AlbumName": "test",
     "Artist": "SB",
     "__v": 0
   }

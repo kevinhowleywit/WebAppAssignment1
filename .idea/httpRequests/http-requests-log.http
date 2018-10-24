@@ -3,6 +3,171 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T120141.200.json
+
+###
+
+POST http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test3", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T120136.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test2", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T120005.500.json
+
+###
+
+POST http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test2", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115946.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test1", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115917.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test1", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115839.500.json
+
+###
+
+POST http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test1", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115834.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test1", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115826.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115541.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115500.500.json
+
+###
+
+POST http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"test", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115453.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"iwtdino", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T115207.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"iwtdino", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T114154.500.json
+
+###
+
+POST http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"iwtdino", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T114149.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"iwtdino", "Artist": "SB", "upvotes":0}
+
+<> 2018-10-24T114135.200.json
+
+###
+
+GET http://localhost:3000/albums/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
 {"AlbumName":"iwtdino", "Artist": "SB", "upvotes":0}
 
 <> 2018-10-23T084001.200.json
@@ -370,171 +535,6 @@ Content-Type: application/json
 {"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
 
 <> 2018-10-18T091314.500.json
-
-###
-
-POST http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-18T091306.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-18T091221.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T093824.500.json
-
-###
-
-POST http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T093756.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T093742.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035213.200.json
-
-###
-
-GET http://localhost:3000/albums/5bc7376d967c9b7804d4d767
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035209.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035204.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035043.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035018.500.json
-
-###
-
-POST http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"klexos", "Artist": "Killstation", "upvotes":0}
-
-<> 2018-10-17T035009.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-17T034947.200.json
-
-###
-
-GET http://localhost:3000/albums/5bc74a7e9863720ab281b1bb
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-17T034815.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-17T034800.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"MLWHWMHC", "Artist": "SB", "upvotes":0}
-
-<> 2018-10-17T034713.200.json
 
 ###
 

@@ -96,7 +96,7 @@ let router = express.Router();
 
 let mongoose = require('mongoose');
 var album = require('../models/albums');
-var mongodbUri ='mongodb://kevin:memes1234@ds139883.mlab.com:39883/albumsdb';
+//specify mongodb uri
 mongoose.connect(mongodbUri);
 
 let db = mongoose.connection;
@@ -128,7 +128,7 @@ router.findAll = (req, res) => {
 
 
 
-module.exports = router;
+
 
 router.findOne = (req, res) => {
 
@@ -151,7 +151,7 @@ router.addAlbum = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
 
-    album = new album();
+    var album = new Album();
 
     album.AlbumName = req.body.AlbumName;
         album.Artist =req.body.Artist;
@@ -200,3 +200,5 @@ router.findTotalVotes = (req, res) => {
             res.json({ totalvotes : getTotalVotes(albums) });
     });
 }
+
+module.exports = router;
