@@ -1,7 +1,7 @@
 
 
 //models of structure
-//will add extra 
+//will add extra
 let mongoose = require('mongoose');
 
 let AlbumSchema = new mongoose.Schema({
