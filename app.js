@@ -27,10 +27,14 @@ app.use('/users', usersRouter);
 //routes
 app.get('/albums/', albums.findAll);
 app.get('/albums/:id', albums.findOne);
+app.get('/albums/AlbumName/',albums.findAllInAlbum);
+//not working
+//app.get('/albums/votes', albums.findTotalVotes);
 app.put('/albums/:id/vote', albums.incrementUpvotes);
+app.put('/albums/:id/downvote', albums.downvote);
 app.post('/albums',albums.addAlbum);
 app.delete('/albums/:id', albums.deleteAlbum);
-app.get('/albums/votes', albums.findTotalVotes);
+
 //app.delete('/albums/:id', albums.deleteAlbum);
 //app.put('/albums/:id/vote', albums.incrementUpvotes);
 //app.get('/albums/votes', albums.findTotalVotes);

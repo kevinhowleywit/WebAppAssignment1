@@ -147,6 +147,20 @@ router.findOne = (req, res) => {
 
 }
 
+//this will find all songs in an album
+router.findAllInAlbum=(req,res) =>{
+
+    res.setHeader('Content-Type', 'application/json');
+
+    album.find({ "AlbumName" : req.params.AlbumName },function(err, albums) {
+        if (err)
+            res.send(err)
+        else
+            res.send(JSON.stringify(albums,null,5));
+    });
+
+
+}
 
 router.addAlbum = (req, res) => {
 
@@ -166,14 +180,15 @@ router.addAlbum = (req, res) => {
             });
 }
 
+
 router.incrementUpvotes = (req, res) => {
 
-    Album.findById(req.params.id, function(err,albums) {
+    albums.findById(req.params.id, function(err,albums) {
         if (err)
             res.json({ message: 'Album wasnt found', errmsg : err } );
         else {
-            album.upvotes += 1;
-            album.save(function (err) {
+            albums.upvotes += 1;
+            albums.save(function (err) {
                 if (err)
                     res.json({ message: 'album wasnt upvoted', errmsg : err } );
                 else
@@ -182,6 +197,25 @@ router.incrementUpvotes = (req, res) => {
         }
     });
 }
+//downvotes an album
+router.downvote = (req, res) => {
+
+    albums.findById(req.params.id, function(err,albums) {
+        if (err)
+            res.json({ message: 'Album wasnt found', errmsg : err } );
+        else {
+            albums.upvotes -= 1;
+            albums.save(function (err) {
+                if (err)
+                    res.json({ message: 'album wasnt downvoted', errmsg : err } );
+                else
+                    res.json({ message: 'album was downvoted!', data: album });
+            });
+        }
+    });
+}
+
+
 
 router.deleteAlbum = (req, res) => {
 
@@ -191,6 +225,13 @@ router.deleteAlbum = (req, res) => {
         else
             res.json({ message: 'album deleted'});
     });
+}
+//not working
+/*
+function getTotalVotes(array) {
+    let totalVotes = 0;
+    array.forEach(function(obj) { totalVotes += obj.upvotes; });
+    return totalVotes;
 }
 
 router.findTotalVotes = (req, res) => {
@@ -202,5 +243,5 @@ router.findTotalVotes = (req, res) => {
             res.json({ totalvotes : getTotalVotes(albums) });
     });
 }
-
+*/
 module.exports = router;
