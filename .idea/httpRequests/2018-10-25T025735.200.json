@@ -1,0 +1,11 @@
+{
+  "message": "Album was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd1cbcf75f36d06cd9d219f",
+    "AlbumName": "Powder",
+    "Artist": "Bones",
+    "SongName": "TakeItFromMe",
+    "__v": 0
+  }
+}

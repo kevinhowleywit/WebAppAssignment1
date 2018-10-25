@@ -1,0 +1,11 @@
+{
+  "message": "Album was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd1cb7475f36d06cd9d219c",
+    "AlbumName": "Powder",
+    "Artist": "Bones",
+    "SongName": "TheHealingFields",
+    "__v": 0
+  }
+}

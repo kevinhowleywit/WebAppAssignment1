@@ -97,7 +97,7 @@ let router = express.Router();
 let mongoose = require('mongoose');
 var album = require('../models/albums');
 //specify the uri to connect
-var mongodbUri =//goes here
+var mongodbUri =
 mongoose.connect(mongodbUri);
 
 let db = mongoose.connection;
@@ -156,6 +156,7 @@ router.addAlbum = (req, res) => {
 
     album.AlbumName = req.body.AlbumName;
         album.Artist =req.body.Artist;
+        album.SongName=req.body.SongName;
 
             album.save(function(err) {
                 if (err)

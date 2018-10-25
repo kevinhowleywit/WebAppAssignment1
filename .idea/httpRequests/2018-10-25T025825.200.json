@@ -2,9 +2,10 @@
   "message": "Album was successfully added!",
   "data": {
     "upvotes": 0,
-    "_id": "5bcf1f3cd97be909ed7cc29b",
-    "AlbumName": "iwtdino",
+    "_id": "5bd1cc0175f36d06cd9d21a1",
+    "AlbumName": "IWTDINO",
     "Artist": "SB",
+    "SongName": "Coma",
     "__v": 0
   }
 }
