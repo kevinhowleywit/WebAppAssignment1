@@ -27,19 +27,15 @@ app.use('/users', usersRouter);
 //routes
 app.get('/albums/', albums.findAll);
 app.get('/albums/:id', albums.findOne);
-app.get('/albums/AlbumName/',albums.findAllInAlbum);
+
+app.get('/albums/getByName/:AlbumName/',albums.findAllInAlbum);
+
 //not working
 //app.get('/albums/votes', albums.findTotalVotes);
 app.put('/albums/:id/vote', albums.incrementUpvotes);
 app.put('/albums/:id/downvote', albums.downvote);
 app.post('/albums',albums.addAlbum);
 app.delete('/albums/:id', albums.deleteAlbum);
-
-//app.delete('/albums/:id', albums.deleteAlbum);
-//app.put('/albums/:id/vote', albums.incrementUpvotes);
-//app.get('/albums/votes', albums.findTotalVotes);
-
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
