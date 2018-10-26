@@ -1,6 +1,6 @@
 //Kevin Howley
 //20078896
-//help gotten from Daemon Macklin
+//Got help from Daemon Macklin
 //A lot of code used is based from the labs in class. It can be found at from https://ddrohan.github.io
 let Album = require('../models/albums');
 
@@ -62,6 +62,7 @@ router.findOne = (req, res) => {
 
 }
 
+
 //this will find all songs in an album
 router.findAllInAlbum=(req,res) =>{
 
@@ -73,8 +74,20 @@ router.findAllInAlbum=(req,res) =>{
         else
             res.send(JSON.stringify(albums,null,5));
     });
+}
 
+//this method will by song
+router.findSong=(req,res) =>{
 
+    res.setHeader('Content-Type', 'application/json');
+
+    album.find({"SongName" : req.params.SongName},function (err,albums) {
+        if(err)
+            res.send(err)
+        else
+            res.send(JSON.stringify(albums,null,5))
+
+    })
 }
 
 router.addAlbum = (req, res) => {
@@ -141,22 +154,5 @@ router.deleteAlbum = (req, res) => {
             res.json({ message: 'album deleted'});
     });
 }
-//not working
-/*
-function getTotalVotes(array) {
-    let totalVotes = 0;
-    array.forEach(function(obj) { totalVotes += obj.upvotes; });
-    return totalVotes;
-}
 
-router.findTotalVotes = (req, res) => {
-
-    Album.find(function(err, albums) {
-        if (err)
-            res.send(err);
-        else
-            res.json({ totalvotes : getTotalVotes(albums) });
-    });
-}
-*/
 module.exports = router;

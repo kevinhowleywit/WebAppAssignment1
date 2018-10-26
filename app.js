@@ -28,10 +28,10 @@ app.use('/users', usersRouter);
 app.get('/albums/', albums.findAll);
 app.get('/albums/:id', albums.findOne);
 
-app.get('/albums/getByName/:AlbumName/',albums.findAllInAlbum);
+app.get('/albums/getByAlbumName/:AlbumName/',albums.findAllInAlbum);
+app.get('/albums/getBySongName/:SongName/',albums.findSong);
 
-//not working
-//app.get('/albums/votes', albums.findTotalVotes);
+
 app.put('/albums/:id/vote', albums.incrementUpvotes);
 app.put('/albums/:id/downvote', albums.downvote);
 app.post('/albums',albums.addAlbum);
