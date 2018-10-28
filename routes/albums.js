@@ -7,8 +7,6 @@ let Album = require('../models/albums');
 let albums = require('../models/albums');
 let express = require('express');
 let router = express.Router();
-
-
 let mongoose = require('mongoose');
 var album = require('../models/albums');
 //specify the uri to connect
@@ -37,8 +35,8 @@ router.findAll = (req, res) => {
     album.find(function(err, albums) {
         if (err)
             res.send(err);
-
-        res.send(JSON.stringify(albums,null,5));
+        else
+            res.send(JSON.stringify(albums,null,5));
     });
 }
 
@@ -89,6 +87,29 @@ router.findSong=(req,res) =>{
 
     })
 }
+
+
+//TODO
+/*
+router.fuzzySearch=(req,res)=>{
+
+    res.setHeader('Content-Type', 'application/json');
+    let fuzzy=[];
+    let
+    // Return a JSON representation of our list
+
+    album.find(function(err, albums) {
+        if (err)
+            res.send(err);
+        else
+            res.send(JSON.stringify(albums,null,5));
+    });
+
+
+}
+
+*/
+
 
 router.addAlbum = (req, res) => {
 
@@ -154,5 +175,10 @@ router.deleteAlbum = (req, res) => {
             res.json({ message: 'album deleted'});
     });
 }
+
+
+
+
+
 
 module.exports = router;

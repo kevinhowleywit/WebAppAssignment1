@@ -1,44 +1,427 @@
-GET http://localhost:3000/albums/getBySongName/Coma
+GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T012913.200.json
+<> 2018-10-28T022735.200.json
 
 ###
 
-GET http://localhost:3000/albums/
+GET http://localhost:3000/listeners//
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T012854.200.json
+<> 2018-10-28T022733.404.html
 
 ###
 
-GET http://localhost:3000/albums/
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T012806.200.json
+<> 2018-10-28T022731.200.json
 
 ###
 
-GET http://localhost:3000/albums/getBySongName/D19
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T012756.200.json
+<> 2018-10-28T022723-3.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022723-2.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022723-1.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022723.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022722-1.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022722.200.json
+
+###
+
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022710.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022702-4.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022702-3.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022702-2.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022702-1.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022702.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022701-4.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022701-3.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022701-2.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022701-1.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022701.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022700-1.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022700.200.json
+
+###
+
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022648.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022643.200.json
+
+###
+
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022628.404.html
+
+###
+
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022240.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022235.200.json
+
+###
+
+PUT http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+###
+
+GET http://localhost:3000/listeners/5bd5aee5e7179a1b53fea317/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T022050.404.html
+
+###
+
+GET http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T021511.200.json
+
+###
+
+GET http://localhost:3000/listeners/getByUserName/KevinHowley
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T021454.404.html
+
+###
+
+GET http://localhost:3000/listeners/getByUserName/Kevin%20Howley
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T021449.404.html
+
+###
+
+GET http://localhost:3000/listeners/getByFaveArtist/Bones
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T020912.200.json
+
+###
+
+GET http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T020901.200.json
+
+###
+
+GET http://localhost:3000/listeners/5bd5c0dfe7179a1b53fea71d
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T020016.200.json
+
+###
+
+GET http://localhost:3000/listeners
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T020009.200.json
+
+###
+
+GET http://localhost:3000/listeners
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T015241.200.json
+
+###
+
+GET http://localhost:3000/albums
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T014943.200.json
+
+###
+
+GET http://localhost:3000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
+
+<> 2018-10-28T014937.200.html
 
 ###
 
@@ -49,62 +432,7 @@ Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T012742.200.json
-
-###
-
-GET http://localhost:3000/albums/getByName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T012733.404.html
-
-###
-
-GET http://localhost:3000/albums/getByName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T010904.200.json
-
-###
-
-GET http://localhost:3000/albums/getByName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T010806.200.json
-
-###
-
-GET http://localhost:3000/albums/getByName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T010804.200.json
-
-###
-
-GET http://localhost:3000/albums/getByName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T010646.200.json
+<> 2018-10-28T010633.200.json
 
 ###
 
@@ -115,7 +443,7 @@ Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T010634.200.json
+<> 2018-10-28T010612.200.json
 
 ###
 
@@ -126,29 +454,18 @@ Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T010629.200.json
+<> 2018-10-28T010134.200.json
 
 ###
 
-GET http://localhost:3000/albums/Powder
+GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T010452.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T125956.200.json
+<> 2018-10-28T125608.404.html
 
 ###
 
@@ -159,388 +476,73 @@ Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-26T090708.200.json
+<> 2018-10-28T125505.200.json
 
 ###
 
-GET http://localhost:3000/albums/
+GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041437.200.json
+<> 2018-10-28T125457.404.html
 
 ###
 
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
+GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041425-2.200.json
+<> 2018-10-28T124723.200.json
 
 ###
 
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
+GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041425-1.200.json
+<> 2018-10-28T124716.200.json
 
 ###
 
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
+GET http://localhost:3000/albums/getByAlbumName/IWTDINO
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041425.200.json
+<> 2018-10-26T052342.200.json
 
 ###
 
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
+GET http://localhost:3000/albums/getByAlbumName/Powder
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041422.200.json
+<> 2018-10-26T040330.200.json
 
 ###
 
-GET http://localhost:3000/albums/
+GET http://localhost:3000/albums/getBySongName/TheHealingFields
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
-<> 2018-10-25T041407.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041400-3.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041400-2.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041400-1.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041400.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041359.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041357.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041346.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041339.200.json
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb75f36d06cd9d219c/downvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041258.404.html
-
-###
-
-PUT http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041207.404.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-###
-
-GET http://localhost:3000/albums/5bd1cb7475f36d06cd9d219c/downvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041130.404.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T041121.200.json
-
-###
-
-GET http://localhost:3000/albums/votes/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035829.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035821-2.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035821-1.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035821.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035820-3.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035820-2.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035820-1.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035820.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035732.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035617.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035421.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035419.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035418-4.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035418-3.200.json
-
-###
-
-GET http://localhost:3000/albums/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-25T035418-2.200.json
+<> 2018-10-26T040309.200.json
 
 ###
 

@@ -1,8 +1,0 @@
-{
-  "message": "Cast to ObjectId failed for value \"Powder\" at path \"_id\" for model \"Albums\"",
-  "name": "CastError",
-  "stringValue": "\"Powder\"",
-  "kind": "ObjectId",
-  "value": "Powder",
-  "path": "_id"
-}

@@ -1,8 +1,0 @@
-{
-  "message": "Cast to ObjectId failed for value \"votes\" at path \"_id\" for model \"Albums\"",
-  "name": "CastError",
-  "stringValue": "\"votes\"",
-  "kind": "ObjectId",
-  "value": "votes",
-  "path": "_id"
-}
