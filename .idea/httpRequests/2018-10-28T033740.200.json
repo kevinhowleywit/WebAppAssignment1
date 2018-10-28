@@ -1,0 +1,19 @@
+[
+  {
+    "upvotes": 4,
+    "_id": "5bd5aee5e7179a1b53fea317",
+    "Name": "Kevin Howley",
+    "Password": "1234",
+    "Country": "Ireland",
+    "FavouriteArtist": "Bones"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd5d7b8bd0ba105b85d4ef5",
+    "Name": "Micheal Dunne",
+    "Password": "badpassowrd1",
+    "Country": "Spain",
+    "FavouriteArtist": "Bones",
+    "__v": 0
+  }
+]

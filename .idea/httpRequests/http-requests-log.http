@@ -1,3 +1,102 @@
+GET http://localhost:3000/listeners/getByFaveArtist/Bones
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Micheal Dunne","Password":"badpassowrd1","Country":"Spain","FavouriteArtist":"Bones"}
+
+<> 2018-10-28T033740.200.json
+
+###
+
+POST http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Micheal Dunne","Password":"badpassowrd1","Country":"Spain","FavouriteArtist":"Bones"}
+
+<> 2018-10-28T033728.200.json
+
+###
+
+GET http://localhost:3000/listeners/getByFaveArtist/Bones
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T033635.200.json
+
+###
+
+GET http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T033314.200.json
+
+###
+
+GET http://localhost:3000/listeners/5bd5d36a62f711053df649f4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T033311.200.json
+
+###
+
+DELETE http://localhost:3000/listeners/5bd5d36a62f711053df649f4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T033306.200.json
+
+###
+
+GET http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T033257.200.json
+
+###
+
+GET http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T031913.200.json
+
+###
+
+POST http://localhost:3000/listeners/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"Name":"Marcel Kowalik","Password":"hello","Country":"Poland","FavouriteArtist":"SB"}
+
+<> 2018-10-28T031906.200.json
+
+###
+
 GET http://localhost:3000/listeners/
 Accept: */*
 Cache-Control: no-cache
@@ -444,105 +543,6 @@ Content-Type: application/json
 {"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
 
 <> 2018-10-28T010612.200.json
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T010134.200.json
-
-###
-
-GET http://localhost:3000/listeners/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T125608.404.html
-
-###
-
-GET http://localhost:3000/albums/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T125505.200.json
-
-###
-
-GET http://localhost:3000/listeners/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T125457.404.html
-
-###
-
-GET http://localhost:3000/listeners/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T124723.200.json
-
-###
-
-GET http://localhost:3000/listeners/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-28T124716.200.json
-
-###
-
-GET http://localhost:3000/albums/getByAlbumName/IWTDINO
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T052342.200.json
-
-###
-
-GET http://localhost:3000/albums/getByAlbumName/Powder
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T040330.200.json
-
-###
-
-GET http://localhost:3000/albums/getBySongName/TheHealingFields
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"AlbumName":"IWTDINO", "Artist": "SB","SongName":"Coma", "upvotes":0}
-
-<> 2018-10-26T040309.200.json
 
 ###
 

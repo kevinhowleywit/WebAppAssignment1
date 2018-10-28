@@ -95,6 +95,36 @@ router.downvote = (req, res) => {
     });
 }
 
+router.addListener = (req, res) => {
+
+    res.setHeader('Content-Type', 'application/json');
+
+    var listener = new Listener();
+
+    listener.Name = req.body.Name;
+    listener.Password =req.body.Password;
+    listener.Country=req.body.Country;
+    listener.FavouriteArtist=req.body.FavouriteArtist;
+
+
+    listener.save(function(err) {
+        if (err)
+            res.json({ message: 'listener wasnt added', errmsg : err } );
+        else
+            res.json({ message: 'listener was successfully added!', data: listener });
+    });
+}
+
+
+router.deleteListener = (req, res) => {
+
+    listener.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'listener wasnt deleted', errmsg : err } );
+        else
+            res.json({ message: 'listener deleted'});
+    });
+}
 
 
 

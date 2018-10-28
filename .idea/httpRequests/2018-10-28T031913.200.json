@@ -1,0 +1,27 @@
+[
+  {
+    "upvotes": 4,
+    "_id": "5bd5aee5e7179a1b53fea317",
+    "Name": "Kevin Howley",
+    "Password": "1234",
+    "Country": "Ireland",
+    "FavouriteArtist": "Bones"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd5c0dfe7179a1b53fea71d",
+    "Name": "Luke Fox",
+    "Password": "4567",
+    "Country": "Russia",
+    "FavouriteArtist": "twentyonepilots"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd5d36a62f711053df649f4",
+    "Name": "Marcel Kowalik",
+    "Password": "hello",
+    "Country": "Poland",
+    "FavouriteArtist": "SB",
+    "__v": 0
+  }
+]

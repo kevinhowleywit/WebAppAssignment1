@@ -1,0 +1,12 @@
+{
+  "message": "listener was successfully added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd5d36a62f711053df649f4",
+    "Name": "Marcel Kowalik",
+    "Password": "hello",
+    "Country": "Poland",
+    "FavouriteArtist": "SB",
+    "__v": 0
+  }
+}

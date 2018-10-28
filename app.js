@@ -53,7 +53,8 @@ app.put('/listeners/:id/vote', listeners.incrementUpvotes);
 app.put('/listeners/:id/downvote', listeners.downvote);
 // post routes
 app.post('/listeners',listeners.addListener);
-
+//delete route
+app.delete('/listeners/:id', listeners.deleteListener);
 
 
 
